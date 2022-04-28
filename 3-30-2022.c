@@ -4,10 +4,10 @@
 int main()
 {
     int x;
-    
+
     printf("나이를 입력하세요 : ");
     scanf("%d", &x);
-    
+
     if (x >= 10 && x <= 19)
     {
         printf("이 사람은 10대입니다");
@@ -38,7 +38,7 @@ int main()
     {
         printf("몰?루");
     }
-    
+
 }
 */
 
@@ -50,7 +50,7 @@ int main()
     int x,y;
     printf("정수 두개를 입력하세요 >> ");
     scanf("%d%d", &x, &y);
-    
+
     printf("%d 더하기 %d은(는) %d 입니다.\n", x, y, x+y);
     printf("%d 빼기 %d은(는) %d 입니다.\n", x, y, x-y);
     printf("%d 곱하기 %d은(는) %d 입니다.\n", x, y, x*y);
@@ -72,7 +72,7 @@ int main()
 int main()
 {
     int k, y;
-    
+
     scanf("%d%d", &k, &y);
     printf("%d\n", k);
     printf("%d\n", k * y);
@@ -84,21 +84,21 @@ int main()
 */
 
 /*
- 
+
  #include <stdio.h>
 
 int main()
 {
     int x,y,z;
-    
+
     printf("정수를 입력하세요 >> ");
     scanf("%d", &x);
     printf("product = %d\n", x);
-    
+
     printf("정수를 입력하세요 >> ");
     scanf("%d", &y);
     printf("product = %d\n", x *= y );
-    
+
     printf("정수를 입력하세요 >> ");
     scanf("%d", &z);
     printf("product = %d\n", x *= z );
@@ -114,7 +114,7 @@ int main()
     int a, b, c;
     printf("a b >>");
     scanf("%d%d", &a, &b);
-    
+
     if(a<=b)
     {
         printf("a = %d, b = %d", a, b);
@@ -125,11 +125,11 @@ int main()
         c = a; // c = 25
         a = b; // a = 15
         b = c; // b = 15
-        
+
         printf("a = %d, b = %d", a, b );
     }
-    
-    
+
+
 }
 */
 
@@ -139,7 +139,7 @@ int main()
 int main()
 {
     int l1, l2, l3;
-    
+
     printf("세변의 길이 >>");
     scanf("%d%d%d", &l1, &l2, &l3);
     if (l1 == l2 || l2 == l3 || l3 == l1)
@@ -150,7 +150,7 @@ int main()
     {
         printf("이등변 삼각형이 아닙니다.");
     }
-    
+
 }
 
 */
@@ -161,7 +161,7 @@ int main()
 int main()
 {
     int score, absent;
-    
+
     printf("시험 점수 결석일수 >> ");
     scanf("%d%d", &score, &absent);
     if ((score >= 80 || absent == 0) || (score >= 60 && absent <= 5))

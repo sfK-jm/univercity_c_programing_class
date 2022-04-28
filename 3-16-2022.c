@@ -6,11 +6,10 @@ int main(void)
         printf("2021년 1학기\n");
         printf("프로그래밍실습\n");
         printf("3학점, 이론 2시간, 실습 2시간\n");
-    
+
     return 0;
 }
  */
- 
 
 /*
  #include <stdio.h>
@@ -62,7 +61,7 @@ int main(void)
  #include <stdio.h>
  int main()
  {
- 
+
  printf("\n=============실습5=============\n");
  printf("%d초를 %d으로 나누면 몫이 %d, 나머지가 %d이다.\n",
      10000, 3600, 10000 / 3600, 10000 % 3600);
@@ -82,7 +81,7 @@ int main(void)
 #include <stdio.h>
 int main()
 {
- 
+
  printf("\n=============실습6=============\n");
  printf("%d를 (1+2+1)로 나눈 몫은 %d, 나머지는 %d이다.\n", 19, 19 / 4, 19 % 4);
  printf("그러므로 자식들 몫은 %d억원, 기부금은 %d억원이다.\n", 19 - 19 % 4, 19 % 4);
@@ -92,4 +91,3 @@ int main()
  printf("교회에는 %d억원을 기부한다.\n", 19 % 4);
  }
  */
-

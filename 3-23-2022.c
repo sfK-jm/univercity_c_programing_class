@@ -18,7 +18,7 @@ int main(void)
         printf("교화 후: x=%d, y=%d\n", x, y);
         return 0;
     }
- 
+
 */
 /*
  #include <stdio.h>
@@ -35,7 +35,7 @@ int main(void)
      }
 
  */
-   
+
 /*
  #include <stdio.h>
  int main()
@@ -87,7 +87,7 @@ int main(void)
 /*
  #include <stdio.h>
  int main()
- 
+
  {
      printf("\n=============실습5=============\n");
      int cast_days;
@@ -104,7 +104,6 @@ int main(void)
      printf("%d일은 %d년 %d개월 %d일입니다.\n", cast_days, years, months, days);
  }
 */
- 
 
 /*
  #include <stdio.h>
@@ -122,7 +121,7 @@ int main()
          minsu = minsu - 4;
          heeyeon = heeyeon + 4;
          printf("준희 = %d, 희연 = %d, 민수 = %d\n", junhee, heeyeon, minsu);
-     
+
      }
  */
 /*
@@ -144,7 +143,7 @@ int main()
 
             printf("아이스크림 %d개는 %d원입니다.\n", qty, pay);
             printf("%d원을 내면 거스름돈은 %d원입니다.\n", money, change);
-    
+
     int five_thd, one_thd, five_hnd;
 
             five_thd = change / 5000;
@@ -160,5 +159,5 @@ int main()
 
 
 }
- 
+
 */
