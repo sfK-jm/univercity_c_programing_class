@@ -67,7 +67,7 @@ int main()
     
     }
     
-    printf("어벤져스 집합 소요시간 %d", time-1);
+    printf("어벤져스 집합 소요시간 %d초", time-1);
 
     return 0;
 }
