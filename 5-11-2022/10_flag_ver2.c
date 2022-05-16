@@ -15,7 +15,7 @@ int check_passengers(void)
         if (age < 6 || height < 140)
         {
             return passenger_no;
-            break;
+            
         }
     }
 
