@@ -1,4 +1,5 @@
 // 실습문제 5 2중 for문 2 5
+
 #include <stdio.h>
 
 int main()
