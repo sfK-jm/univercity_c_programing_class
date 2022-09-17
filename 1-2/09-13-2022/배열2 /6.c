@@ -3,30 +3,20 @@
 
 #include <stdio.h>
 
-int main(void)
-{
-    int arr[4][4] =
-        {
-            {12, 5, 2, -1},
-            {-3, 27, 10, 6},
-            {4, 16, -6, -21},
-            {7, 25, -15, 66}
-        };
+int main(void) {
+    int arr[4][4] = {
+        {12, 5, 2, -1}, {-3, 27, 10, 6}, {4, 16, -6, -21}, {7, 25, -15, 66}};
 
     int max_num = 0;
     int min_num = 999;
 
-    for (int i = 0; i < 4; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            if (arr[i][j] > max_num)
-            {
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            if (arr[i][j] > max_num) {
                 max_num = arr[i][j];
             }
 
-            if (arr[i][j] < min_num)
-            {
+            if (arr[i][j] < min_num) {
                 min_num = arr[i][j];
             }
         }

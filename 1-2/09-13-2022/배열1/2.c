@@ -8,19 +8,16 @@
 
 #include <stdio.h>
 
-int main(void) 
-{
-    int arr[5] = {3,1,2,7,5};
+int main(void) {
+    int arr[5] = {3, 1, 2, 7, 5};
 
     int min_vlaue = 999;
-    int min_index = 999; 
+    int min_index = 999;
 
-    for (int i = 0; i < 5; i++)
-    {
-        if (arr[i] < min_vlaue)
-        {
-        min_vlaue = arr[i];
-        min_index = arr[i];
+    for (int i = 0; i < 5; i++) {
+        if (arr[i] < min_vlaue) {
+            min_vlaue = arr[i];
+            min_index = arr[i];
         }
     }
 
