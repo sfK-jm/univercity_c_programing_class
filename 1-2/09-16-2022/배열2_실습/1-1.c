@@ -3,7 +3,7 @@
 void gap() { printf("\n"); }
 
 int main(void) {
-    int arr[] = {3, 1, 2, 7, 5};
+    int arr[5] = {3, 1, 2, 7, 5};
 
     // 1번 출력
     printf("1) scan: ");
