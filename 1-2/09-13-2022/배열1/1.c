@@ -11,9 +11,8 @@
 
 int main() {
     double height[5] = {0};
-
     // 키 입력받기
-    printf("5명의 키를 입력하세요(cm)>>");
+    printf("5명의 키를 입력하세요(cm)>> ");
     for (int i = 0; i < 5; i++) {
         scanf("%lf", &height[i]);
     }
@@ -21,7 +20,7 @@ int main() {
     // 1번 출력
     printf("1) 5명의 키(cm): ");
     for (int i = 0; i < 5; i++) {
-        printf("%.1lf ", height[i]);
+        printf("%8.1lf ", height[i]);
     }
 
     printf("\n");
@@ -29,16 +28,16 @@ int main() {
     // 2번 출력
     printf("2) 5명의 키(m): ");
     for (int i = 0; i < 5; i++) {
-        printf("%.3lf ", height[i] / 100);
+        printf("%8.3lf ", height[i] / 100);
     }
-
     printf("\n");
 
     // 3번 출력
     printf("3) 5명의 키(inch): ");
     for (int i = 0; i < 5; i++) {
-        printf("%.3lf ", height[i] * 0.394);
+        printf("%8.3lf ", height[i] * 0.394);
     }
+    printf("\n");
 
     return 0;
 }

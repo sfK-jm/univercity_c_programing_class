@@ -12,7 +12,7 @@ int main(void) {
     int arr[5] = {3, 1, 2, 7, 5};
 
     int min_vlaue = 999;
-    int min_index = 999;
+    int min_index;
 
     for (int i = 0; i < 5; i++) {
         if (arr[i] < min_vlaue) {
