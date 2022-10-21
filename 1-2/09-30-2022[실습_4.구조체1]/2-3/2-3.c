@@ -10,7 +10,7 @@ struct game {
 
 int main(void) {
     struct game game1 = {1, "브루마블", 1000, 0, {0}};
-    struct game game2 = {1, "젠가", 800, 0, {0}};
+    struct game game2 = {2, "젠가", 800, 0, {0}};
 
     int count_1 = 0;
     int count_2 = 0;

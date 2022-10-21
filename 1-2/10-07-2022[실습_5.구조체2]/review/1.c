@@ -2,7 +2,6 @@
 #include <string.h>
 
 struct profile {
-    char name[50];
     int age;
     double height;
 };
@@ -14,9 +13,7 @@ struct student {
 };
 
 int main() {
-    struct student stu = {"0", 12334, 'A', {23, 187.5}};
-    printf("이름 = ");
-    scanf("%s", stu.pf.name);
+    struct student stu = {12345, 'A', {23, 187.5}};
 
     // stu.id = 12345;
     // stu.grade = 'A';

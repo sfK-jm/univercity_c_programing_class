@@ -3,22 +3,22 @@
 #include <stdio.h>
 #include <string.h>
 
-struct profile {
+typedef struct {
     char name[50];
     int age;
     double height;
-};
+} profile;
 
-struct student {
+typedef struct {
     int id;
     char grade;
-    struct profile pf;
-};
+    profile pf;
+} student;
 
 int main() {
-    struct student stu = {0, 12334, 'A', {23, 187.5}};
+    student stu = {12345, 'A', {"0", 23, 187.5}};
     printf("이름 = ");
-    scanf("%s", stu.name);
+    scanf("%s", stu.pf.name);
     // stu.id = 12345;
     // stu.grade = 'A';
     // stu.pf.age = 23;
@@ -26,6 +26,7 @@ int main() {
 
     printf("학번 : %d\n", stu.id);
     printf("학점 : %c\n", stu.grade);
+    printf("이름 : %s\n", stu.pf.name);
     printf("나이 : %d\n", stu.pf.age);
     printf("키   : %.2f\n", stu.pf.height);
 }

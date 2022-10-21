@@ -5,7 +5,7 @@ int main() {
     int dst_arr[10] = {0};
 
     int n, m;
-    printf("n = ");
+    printf("n, m = ");
     scanf("%d%d", &n, &m);
 
     // dst_arr[]의 마지막 위치, 다음 저장할 위치, 또는 저장된 값의 개수를
