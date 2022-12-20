@@ -5,7 +5,7 @@ int main() {
     int *p1, *p2;
 
     p1 = &num;
-    p2 = &num;
+    p2 = p1;
 
     (*p2) %= 4;
     printf("num = %d", num);
